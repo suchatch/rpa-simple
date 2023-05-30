@@ -1,9 +1,9 @@
 *** Settings ***
 Documentation       Playwright template.
 
-Library             RPA.Browser.Playwright
+Library             RPA.Windows
 
 
 *** Tasks ***
 Minimal task
-    Open Browser    https://robocorp.com/docs/development-guide/browser/playwright
+    Control Window   Calculator
