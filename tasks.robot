@@ -1,9 +1,8 @@
 *** Settings ***
-Documentation       Playwright template.
-
 Library             RPA.Windows
 
 
 *** Tasks ***
-Minimal task
-    Control Window   Calculator
+Open Browser
+    [Setup]  Windows Run   calc.exe
+
